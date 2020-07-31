@@ -391,8 +391,8 @@
    			<h5>Portfolio</h5>
    			<h1>Echa un vistazo a algunos de mis proyectos</h1>
 
-   			<p class="lead">Principales proyectos realizados
-			   </p>
+   			<!-- <p class="lead">Principales proyectos realizados
+			   </p> -->
 
    		</div>   		
    	</div> <!-- /section-intro--> 
@@ -404,10 +404,26 @@
    			<!-- portfolio-wrapper -->
 	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
+				 <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/pinterest-app.png" alt="Pinterest-app">
+	                  <a href="#modal-01" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">PinterestApp</h3>	     					    
+		     					    	<span class="folio-types">
+											Web Development
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        	</div> <!-- /folio-item -->
+
 				<div class="bgrid folio-item">
 					<div class="item-wrap">
 						<img src="images/portfolio/spotiapp.png" alt="Spotiapp">
-					   <a href="#modal-01" class="overlay">             		                  
+					   <a href="#modal-02" class="overlay">             		                  
 						  <div class="folio-item-table">
 							  <div class="folio-item-cell">
 								  <h3 class="folio-title">Spotiapp</h3>	     					    
@@ -423,7 +439,7 @@
 				 <div class="bgrid folio-item">
 					<div class="item-wrap">
 						<img src="images/portfolio/api_bq.png" alt="Burger Queen">
-					   <a href="#modal-02" class="overlay">                  	                 
+					   <a href="#modal-03" class="overlay">                  	                 
 						  <div class="folio-item-table">
 							  <div class="folio-item-cell">
 								  <h3 class="folio-title">Burger Queen</h3>	     					    
@@ -439,7 +455,7 @@
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/lib.png"alt="Md-links">
-	                  <a href="#modal-03" class="overlay">             		                  
+	                  <a href="#modal-04" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
 	                     		<h3 class="folio-title">Md-links</h3>	     					    
@@ -455,7 +471,7 @@
 				<div class="bgrid folio-item">
 					<div class="item-wrap">
 						<img src="images/portfolio/code_gilr1.png" alt="Code girl">
-						<a href="#modal-04" class="overlay">              		                  
+						<a href="#modal-05" class="overlay">              		                  
 						  <div class="folio-item-table">
 							  <div class="folio-item-cell">
 								  <h3 class="folio-title">Social Network</h3>	     					    
@@ -471,7 +487,7 @@
 				<div class="bgrid folio-item">
 					<div class="item-wrap">
 						<img src="images/portfolio/Data_Lover.jpg" alt="Data Lovers">
-					   <a href="#modal-05" class="overlay">	                  	           
+					   <a href="#modal-06" class="overlay">	                  	           
 						  <div class="folio-item-table">
 							  <div class="folio-item-cell">
 										 <h3 class="folio-title">Data Lovers</h3>	     					    
@@ -483,26 +499,38 @@
 					   </a>
 					</div>	               
 				 </div> <!-- /folio-item -->
-
-	           <!--  <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Salad</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> --> <!-- /folio-item -->   
+   
 
 	            <!-- modal popups - begin
 				============================================================= -->
-				<div id="modal-01" class="popup-modal slider mfp-hide">	
+				 <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+					<div class="media">
+						<img src="images/portfolio/modals/pinterest-app2.png" alt="" />
+					</div>      	
+
+					<div class="description-box">
+						<h4>PinterestApp</h4>		      
+						<p>Interfaz web que recrea el diseño de la paǵina de pinterest, donde el usuario puede visualizar imágenes aleatorias y conocer mayor información de cada imagen en una vista modal. También permite hacer una búsqueda de fotos especificas según palabras claves.</p>
+
+						<div class="categories">Web Development</div>
+						<p></p>
+						<div class="categories">Stack: Angular, Typescript, Bootstrap 4, Unsplash API, Firebase Hosting, Travis, Git</div>
+						<p></p>	
+						<div class="categories">
+							<a href="https://github.com/Kiswari10/pinterest-angular" target="_blank">Ver código</a>
+						</div>	               			               
+					</div>
+
+			         <div class="link-box">
+			            <a href="https://pinterest-app-99e66.web.app/" target="_blank">Ver Demo</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				</div> <!-- /modal-06 -->
+
+
+				<div id="modal-02" class="popup-modal slider mfp-hide">	
 
 					<div class="media">
 						<img src="images/portfolio/modals/spotiapp2.png" alt="" />
@@ -516,7 +544,7 @@
 
 					 <div class="categories">Web Development</div>
 					 <p></p>
-					 <div class="categories">Stack: Angular, Typescript, Bootstrap 4, Spotify API, Git</div>		               
+					 <div class="categories">Stack: Angular, Typescript, Bootstrap 4, Spotify API, Firebase Hosting, Git</div>		               
 				  </div>
 
 					<div class="link-box">
@@ -524,9 +552,9 @@
 						<a href="#" class="popup-modal-dismiss">Close</a>
 					</div>		      
 
-			  	</div> <!-- /modal-01 -->
+			  	</div> <!-- /modal-02 -->
 
-				<div id="modal-02" class="popup-modal slider mfp-hide">	
+				<div id="modal-03" class="popup-modal slider mfp-hide">	
 
 					<div class="media">
 						<img src="images/portfolio/modals/api_img.jpeg" alt="burger_queen" />
@@ -547,9 +575,9 @@
 						<a href="#" class="popup-modal-dismiss">Cerrar</a>
 					</div>		      
 
-		   		</div> <!-- /modal-02 -->
+		   		</div> <!-- /modal-03 -->
 
-				<div id="modal-03" class="popup-modal slider mfp-hide">	
+				<div id="modal-04" class="popup-modal slider mfp-hide">	
 
 					<div class="media">
 						<img src="images/portfolio/modals/mdLinks-whitValidate.png" alt="mdlinks" />
@@ -573,9 +601,9 @@
 						<a href="#" class="popup-modal-dismiss">Cerrar</a>
 					</div>		      
 
-				</div> <!-- /modal-03 -->
+				</div> <!-- /modal-04 -->
 				   
-				<div id="modal-04" class="popup-modal slider mfp-hide">	
+				<div id="modal-05" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/code_girl2.png" alt="code_girl" />
@@ -600,9 +628,9 @@
 					      <a href="#" class="popup-modal-dismiss">Cerrar</a>
 			         </div>		      
 
-				</div> <!-- /modal-04 -->
+				</div> <!-- /modal-05 -->
 
-				<div id="modal-05" class="popup-modal slider mfp-hide">	
+				<div id="modal-06" class="popup-modal slider mfp-hide">	
 
 					<div class="media">
 						<img src="images/portfolio/modals/Pokémon.png" alt="pokémon" />
@@ -625,27 +653,7 @@
 						<a href="#" class="popup-modal-dismiss">Cerrar</a>
 					</div>		      
 
-		   		</div> <!-- /modal-05 -->
-
-				  <!--  <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Salad</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Branding</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> --> <!-- /modal-06 -->
+		   		</div> <!-- /modal-06 -->
 
 
 				   <!-- modal popups - end
